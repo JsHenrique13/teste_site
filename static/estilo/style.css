@@ -144,18 +144,39 @@ div.barramenu .btn .menus a
 
 div.mesas {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+    height: max-content;
+    width: max-content;
+    color: aliceblue;
+    background-color: #fcfcfc;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 100px;
+    padding: 20px;
+    margin: 0 auto;
     text-align: center;
-
 
 }
 h2{
     text-align: center;
 }
-div.mesas>
+div.mesas>a{
+
+    color: rgb(70, 248, 46);
+    border: 1px solid green;
+    width: max-content;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    
+    
+    
+    
+
+
+}
 
 
     /* area de notícias */

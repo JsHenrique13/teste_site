@@ -29,9 +29,10 @@ grafic = fig.show()
 def home():
     return render_template("home.html")
 
-@app.route("/mesa/<id_mesa>")
+@app.route("/mesa<id_mesa>")
 def mesa(id_mesa):
     return render_template("mesa.html", id_mesa=id_mesa)
+
 
 @app.route("/grafic")
 def grafic(grafic):
