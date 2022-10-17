@@ -140,6 +140,23 @@ div.barramenu .btn .menus a
     margin-right: 10px;
 
 }
+    /* area de mesas*/
+
+div.mesas {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+
+}
+h2{
+    text-align: center;
+}
+div.mesas>
+
 
     /* area de notícias */
 h3{
